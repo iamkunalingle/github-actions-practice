@@ -1,11 +1,12 @@
 # Workflow
 # Should Have Name
+
 name: Hello
 # On tells when the workflow should run
 on:
   workflow_dispatch: 
-# Jobs
-#should be inside the workflow
+  
+# Jobs should be inside the workflow
 # Job tells what the workflow should do
 jobs:
   say-hello:
@@ -13,8 +14,4 @@ jobs:
     steps:
       - name: Say hello to everyone
         run: echo "Hello-dosto"
-# Steps
-#should be inside the job
 
-# Actions
-# should be inside the steps
